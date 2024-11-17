@@ -1,0 +1,18 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+#logo {
+    position: absolute;
+    top: 90px;
+    left: 215px;
+    width: 96px;
+    height: 96px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
